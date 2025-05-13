@@ -15,3 +15,8 @@ cout << "Constructor Terpanggil" << endl;
 cout << "NIM : " << nim << endl;
 cout << "Nama : " << nama << endl;
 }
+
+int main() {
+    mahasiswa mhs(12345, "Pascal"); // Memanggil constructor dengan parameter
+    return 0;
+}
