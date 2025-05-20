@@ -29,3 +29,9 @@ void DataBarang::outputBarang(Barang &brg)
     cout << "Kode Barang : " << brg.kodeBarang << endl;
     cout << "Nama Barang : " << brg.namaBarang << endl;
 }
+
+int main()
+{
+    Barang brg;
+    DataBarang dtbrg;
+}
