@@ -7,3 +7,7 @@ class DataBarang{
         void inputBarang(Barang &brg);
         void outputBarang(Barang &brg);
 };
+
+class Barang
+{
+};
