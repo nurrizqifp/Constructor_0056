@@ -23,3 +23,9 @@ void DataBarang::inputBarang(Barang &brg)
     {cout<<"Input Nama Barang: "; cin >> brg.namaBarang;}
     {cout<<"Masukkan Kode Barang: "; cin >> brg.kodeBarang;}
 }
+
+void DataBarang::outputBarang(Barang &brg)
+{
+    cout << "Kode Barang : " << brg.kodeBarang << endl;
+    cout << "Nama Barang : " << brg.namaBarang << endl;
+}
