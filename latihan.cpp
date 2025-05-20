@@ -34,4 +34,7 @@ int main()
 {
     Barang brg;
     DataBarang dtbrg;
+    dtbrg.inputBarang(brg);
+    dtbrg.outputBarang(brg);
+    return 0;
 }
