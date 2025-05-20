@@ -10,4 +10,10 @@ class DataBarang{
 
 class Barang
 {
+    private:
+        string namaBarang;
+        int kodeBarang;
+
+    friend void DataBarang::inputBarang(Barang &brg);
+    friend void DataBarang::outputBarang(Barang &brg);
 };
