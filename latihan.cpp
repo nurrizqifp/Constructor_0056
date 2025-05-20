@@ -17,3 +17,9 @@ class Barang
     friend void DataBarang::inputBarang(Barang &brg);
     friend void DataBarang::outputBarang(Barang &brg);
 };
+
+void DataBarang::inputBarang(Barang &brg)
+{
+    {cout<<"Input Nama Barang: "; cin >> brg.namaBarang;}
+    {cout<<"Masukkan Kode Barang: "; cin >> brg.kodeBarang;}
+}
